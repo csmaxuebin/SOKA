@@ -39,21 +39,11 @@ on location semantics, making it difficult for attackers to distinguish them. Ex
  -  **Anonymous success rate**
  -  **Running time**
 ## Python Files
- -   **som.py**:
-    
-    -   This code is an implementation of a Self-Organizing Map (SOM), which is used to train and visualize the results of the SOM algorithm on a given set of feature data. The `train` method is used to train the SOM model using the SOM algorithm, and the `show` method is used to visualize the mapping results of the SOM.
--   **runner.py**:
-    
-    -   This code defines a `TrainRunner` class that automates the process of data preprocessing and model training.
--   **kdtree.py**:
-    
-    -   This code defines two classes: `Mondrian` and `K_Anonymity`, which are used for data perturbation and achieving k-anonymity. These classes provide different levels of data privacy protection by applying the Mondrian algorithm and k-anonymity techniques, with the additional option of utilizing a Self-Organizing Map (SOM) for perturbation..
--   **main.ipynb**:
-    
-    -   The code cell imports some Python libraries and defines variables and functions.
--   **model.py**:
-    
-    -   The code defines a neural network model, trains it, and provides methods for prediction and evaluation of the model's performance.
+ -   **som.py**: This code is an implementation of a Self-Organizing Map (SOM), which is used to train and visualize the results of the SOM algorithm on a given set of feature data. The `train` method is used to train the SOM model using the SOM algorithm, and the `show` method is used to visualize the mapping results of the SOM.
+-   **runner.py**: This code defines a `TrainRunner` class that automates the process of data preprocessing and model training.
+-   **kdtree.py**:  is code defines two classes: `Mondrian` and `K_Anonymity`, which are used for data perturbation and achieving k-anonymity. These classes provide different levels of data privacy protection by applying the Mondrian algorithm and k-anonymity techniques, with the additional option of utilizing a Self-Organizing Map (SOM) for perturbation..
+-   **main.ipynb**: The code cell imports some Python libraries and defines variables and functions.
+-   **model.py**: The code defines a neural network model, trains it, and provides methods for prediction and evaluation of the model's performance.
 
 ## Experimental Results
 ![输入图片说明](https://github.com/csmaxuebin/SOKA/blob/main/picture/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-06-17%20101642.png)Fig.7 shows the effects of the number of records and the number of attributes in the dataset on the information loss performance of the algorithms, respectively
