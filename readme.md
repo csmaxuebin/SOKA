@@ -57,7 +57,7 @@ on location semantics, making it difficult for attackers to distinguish them. Ex
 
 ## Experimental Results
 ![输入图片说明](/imgs/2024-06-17/6sDvcRezMspRJn8q.png)Fig.7 shows the effects of the number of records and the number of attributes in the dataset on the information loss performance of the algorithms, respectively
-![输入图片说明](/imgs/2024-06-17/IxE9J7UsfhqEzja2.png)Fig.8 shows the variation of anonymization processing time with k for different thresholds for Greedy Search, Improved Clustering and SOKA algorithms.
+![输入图片说明](https://github.com/csmaxuebin/SOKA/blob/main/picture/2.png)Fig.8 shows the variation of anonymization processing time with k for different thresholds for Greedy Search, Improved Clustering and SOKA algorithms.
 ![输入图片说明](/imgs/2024-06-17/AwJtiI3CZU3zEPKv.png)The effect of location semantic difference 𝑢 on the anonymization success rate is shown in Fig.9(a).
 Fig.9(b) shows the ratio of the number of false locations to the total number of locations in the anonymization region when the number of locations in the map is 10000.
 Fig.9(c) and Fig.9(d) shows the anonymization success rate decreases when the number of location queries is small and the users are dispersed under a certain k. 
