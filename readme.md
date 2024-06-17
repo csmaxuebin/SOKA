@@ -46,7 +46,7 @@ on location semantics, making it difficult for attackers to distinguish them. Ex
 -   **model.py**: The code defines a neural network model, trains it, and provides methods for prediction and evaluation of the model's performance.
 
 ## Experimental Results
-![输入图片说明](https://github.com/csmaxuebin/SOKA/blob/main/picture/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-06-17%20101642.png)Fig.7 shows the effects of the number of records and the number of attributes in the dataset on the information loss performance of the algorithms, respectively
+![输入图片说明](https://github.com/csmaxuebin/SOKA/blob/main/picture/3.png)Fig.7 shows the effects of the number of records and the number of attributes in the dataset on the information loss performance of the algorithms, respectively
 ![输入图片说明](https://github.com/csmaxuebin/SOKA/blob/main/picture/2.png)Fig.8 shows the variation of anonymization processing time with k for different thresholds for Greedy Search, Improved Clustering and SOKA algorithms.
 ![输入图片说明](https://github.com/csmaxuebin/SOKA/blob/main/picture/3.png)The effect of location semantic difference 𝑢 on the anonymization success rate is shown in Fig.9(a).
 Fig.9(b) shows the ratio of the number of false locations to the total number of locations in the anonymization region when the number of locations in the map is 10000.
